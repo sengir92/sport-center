@@ -1,0 +1,347 @@
+.container > nav{
+    background-color: #355592;
+  }
+  
+  .container a {
+    margin-bottom: 0 !important;
+  }
+  
+  #navbarResponsive {
+    justify-content: right;
+  }
+  .btn{
+    color: #ffffff !important;
+  }
+  .nav-item a {
+    color: rgb(255, 255, 255) !important;
+    margin-right: 20px;
+  
+  }
+  #header {
+    background-image: url(img/hero-man.jpg);
+    background-size: cover;
+  }
+  .signup{
+    color:#355592 !important;
+  }  
+  .container h4 {
+    display: inline-block;
+    color: aliceblue;
+    background-color: #355592;
+    margin-top: 200px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 5px;
+  }
+  
+  h1 {
+    color: aliceblue;
+    font-size: 3.5rem !important;
+    margin-bottom: 5px;
+    margin-top: 100px;
+  }
+  
+  .container p {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 2px black;
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .container a {  
+    margin-top: 20px;
+    line-height: 20px;
+    margin-bottom: 50px;
+  }
+  .position-light{
+    margin-left: 20px;
+  }
+  .outline {
+    background-color: transparent !important;
+    color: white !important; 
+    transition: all .25s !important;
+    border: #ffffff solid 2px !important;
+  }
+  #home{
+    background-color: #f1f8ff;
+    height: 180px;
+  }
+  #home img {
+    width: 70%;
+    display: block;
+    position: relative;
+    top: 50px;
+  }
+  .bg-cover {
+    height: 100%;
+    width: 60%;
+    background: #f6f6f6;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%, 12.5% 50%);
+  }
+  .center {
+    text-align: center;
+    display: block;
+    z-index: 1;
+  }
+  .our-class-title{
+    color: #355592 !important;
+    position: relative;
+    top: 50px; 
+  }
+  .orange-line-title{
+    width: 140px;
+    position: relative;
+    top: 50px;
+    color: orange;
+    border: solid 4px #fe9b01;
+  }
+  
+  .card-item {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    margin: 15px 0px;
+    width: auto;
+    background-color: #fff;
+    text-align: center;
+    line-height: 36px;
+  }
+  
+  .card-item h3 {
+    color: #355592;
+  }
+  
+  .card-item p {
+    font-weight: bold;
+    background-color: transparent;
+    color:rgba(0, 0, 0, 0.6);
+  }
+  
+  .text-classes{
+    background-color: transparent !important;
+    color: black !important;
+    font-size: 20px !important;
+    margin-top: 70px;
+    text-shadow: none !important;
+    width: 70% !important;
+    position: relative;
+    left: 150px;
+  }
+  .content-classes{
+    height: 400px;
+  }
+  .content-classes .row{
+    height: 400px;
+  }
+  .img-design{
+    width: 100%;
+    position: relative;
+    top: 150px;
+  }
+  .container-content .text-classes{
+    position: relative;
+    left: 0px;
+    margin-top: 0px;
+  }
+  .position-text{
+    position: relative;
+    top: 50px;
+  }
+  .position-text h3{
+    font-weight: 700;
+  } 
+  .date-list{
+    font-size: 16px !important;
+  }
+  .bmi-calculator{
+    height: 400px;
+    position: relative; 
+    top: 200px;
+  
+  }
+  .bmi-calculator .text-classes{
+    position: relative;
+    left: 0px;
+    margin-top: 0px;
+  }
+  .img-bmi{
+    width: 100%;
+    position: relative;
+  }
+  .calculator {
+    margin-top: 24px;
+  }
+  .arrow-up {
+    position: absolute;
+    left: 7%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 20px solid #fe9b01;
+    transition: 0.5s;
+  }
+  #trainer{
+    height: 700px;
+    position: relative;
+    top: 200px;
+    background-color: #f1f8ff;
+  }
+  #trainer .card{
+    margin: 20px;
+    display: inline-block;
+    background-color: transparent !important;
+    border: none !important;
+  }
+  #trainer .card-title {
+    background-color: #355592;
+    text-align: center;
+    display: none;
+    color: white;
+    position: relative;
+    left: 80px;
+    top: -100px;
+    width: 150px;
+  }
+  
+  /* CSS to display the card title on hover */
+  #trainer .card:hover .card-title {
+    display: block;
+  }
+  #purchase-form{
+    height: 700px;
+    position: relative;
+    top: 200px;
+  }
+  
+  #purchase-form .card-text {
+    background: transparent;
+    color: black;
+  }
+  #purchase-form .card-price {
+    background: transparent;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+  #review{
+    height: 700px;
+    position: relative;
+    top: 200px;
+    background-color: #f1f8ff;
+  }
+  .client-reviews {
+    display: flex;
+    gap: 15%;
+    padding-bottom: 96px;
+  }
+  .client-info {
+    display: flex;
+    gap: 6%;
+  }
+  .client-info img {
+    border-radius: 50%;
+    width: 3rem;
+  }
+  .name p:first-child {
+    font-weight: 500;
+  }
+  .name p:last-child {
+    font-size: 12px;
+  }
+  .client-comment {
+    margin-top: 3%;
+    position: relative;
+  }
+  .client-comment p {
+    background-color: #355592;
+    color: aliceblue;
+    font-size: 12px;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .client-comment::after {
+    position: absolute;
+    content: "";
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: #8096be;
+    width: 2rem;
+    height: 2rem;
+    top: 100%;
+    left: 0;
+  }
+  .client-comment::before {
+    position: absolute;
+    content: "";
+    background-color: #8096be;
+    width: 2rem;
+    height: 2rem;
+    top: 100%;
+    right: 0%;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+  }
+  .contact-form input,
+  .contact-form textarea {
+      font-size: 14px;
+      padding: 10px 12px;
+      background-color: #becbe3;
+  }
+  #contact-us{
+      height: 700px;
+      position: relative;
+      top: 200px;
+  }
+  #footer{
+      height: 300px;
+      position: relative;
+      top: 200px;
+      background-color: #355592;
+      color: #ffffff;
+  }
+  .footer-text{
+      color: white !important;
+      margin-top: 0px !important;
+      width: 100% !important;
+      left: 0px !important;
+      font-size: 14px !important;
+  }
+  #footer a{
+      color: white !important;
+      top: 50px;
+      color: orange;
+      border: orange solid 5px;
+  }
+  .bmi-calculater{
+      height: 400px;
+      position: relative; 
+      top: 200px;
+  
+  }
+  .bmi-calculater .text-classes{
+      position: relative;
+      left: 0px;
+      margin-top: 0px;
+  }
+  #google-map {
+    height: 300px !important; 
+    width: 100%; 
+  }
+  #home .box{
+    background-color:white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #home .box-h3 {
+    color: #355592;
+  }
+  #home .box-p{
+  color: black !important;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: large;
+  text-shadow: none;
+  }
