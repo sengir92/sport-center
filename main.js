@@ -13,6 +13,18 @@ function toggleContainer(containerId) {
     toggleContainer('container1'); // Change 'container1' to the ID of your first container
   };
 
+  document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('mainNav');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  });
+  
+
 
  document.getElementById('height').addEventListener('input', calculate);
  document.getElementById('weight').addEventListener('input', calculate);

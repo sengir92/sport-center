@@ -1,8 +1,4 @@
-.container > nav{
-    background-color: #355592;
-  }
-  
-  .container a {
+.container a {
     margin-bottom: 0 !important;
   }
   
@@ -17,6 +13,13 @@
     margin-right: 20px;
   
   }
+  #mainNav {
+    background-color: transparent !important;
+  }
+  #mainNav.scrolled {
+    background-color: #355592 !important; /* Change to desired color */
+  }
+  
   #header {
     background-image: url(img/hero-man.jpg);
     background-size: cover;
@@ -90,6 +93,8 @@
     color: #355592 !important;
     position: relative;
     top: 50px; 
+    font-size: 40px !important;
+    font-weight: 700;
   }
   .orange-line-title{
     width: 140px;
@@ -216,15 +221,22 @@
     top: 200px;
   }
   
-  #purchase-form .card-text {
+  #purchase-form .card-text{
     background: transparent;
     color: black;
+    font-weight: 700;
+  }
+  #purchase-form small{
+    font-weight: 700;
   }
   #purchase-form .card-price {
     background: transparent;
     color: black;
     font-size: 16px;
     text-align: center;
+    text-shadow: none !important;
+    position: relative;
+    top: 20px;
   }
   #review{
     height: 700px;
@@ -243,7 +255,6 @@
   }
   .client-info img {
     border-radius: 50%;
-    width: 3rem;
   }
   .name p:first-child {
     font-weight: 500;
@@ -310,8 +321,9 @@
   #footer a{
       color: white !important;
       top: 50px;
-      color: orange;
-      border: orange solid 5px;
+  }
+  .list-unstyled li{
+    padding: 2px !important;
   }
   .bmi-calculater{
       height: 400px;
@@ -344,4 +356,22 @@
   font-weight: bold;
   font-size: large;
   text-shadow: none;
+  }
+  .contact-info {
+    margin-top: 0px !important;
+    width: 100% !important;
+    position: relative !important;
+    left: 0px !important;
+    font-weight: bolder !important;
+  }
+  #icon svg{
+    width: 10% !important;
+    margin-top: -22px !important;
+  }
+  .card-body h5{
+    font-size: 17px !important;
+  }
+  #trainer img:hover{
+    border: 2px solid #355592 !important;
+    transition: 0.5s;
   }
