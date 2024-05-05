@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <title>Sport Center</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
   </head>
   <body>
 
@@ -45,7 +44,7 @@
           perferendis quis magnam sunt ex, dolorum suscipit dignissimos velit
           totam minus?
         </p>
-        <a class="btn btn-primary signup">Sign Up</a>
+        <a class="btn btn-primary signup text-light">Sign Up</a>
         <a class="btn btn-default outline position-light">Details</a>
       </div>
     </header>
@@ -90,16 +89,16 @@
         <br/>
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 mb-1">
               <button class="btn btn-primary btn-block" onclick="toggleContainer('container1')">Yoga</button>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-1">
               <button class="btn btn-primary btn-block" onclick="toggleContainer('container2')">Group</button>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-1">
               <button class="btn btn-primary btn-block" onclick="toggleContainer('container3')">Solo</button>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-1">
               <button class="btn btn-primary btn-block" onclick="toggleContainer('container4')">Streching</button>
             </div>
           </div>
@@ -210,6 +209,7 @@
               </div>
           </div>
           <div class="col-md-6">
+            <h3 class="text-center">Your BMI: <span id="bmi-result"></span></h3>
             <img src="img/bmi-index.jpg" alt="Image 4" class="img-bmi"> 
             <div class="arrow-up"></div>
           </div>
@@ -219,7 +219,7 @@
     <br/>
     <section id="trainer">
       <div class="container">
-        <h1 class="center our-class-title">OUR BEST TRAİNERS</h1>
+        <h1 class="center our-class-title">OUR BEST TRAINERS</h1>
         <hr class="orange-line-title"/>
         <p class="text-center text-classes">Lorem ipsum dolor is not simply random text. It has roots in aplace of classical 
           Hampden-Sdyney College.
@@ -227,21 +227,37 @@
         <br/>
         <div class="row">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card trainer-card">
               <img src="img/trainer1.jpg" class="card-img-top" alt="Trainer 1">
-              <h5 class="card-title">Jean Doe</h5>
+              <div class="pt-name">
+                <h3>Jean Doe</h3>
+                <p style="background-color: transparent; font-size: 15px;">Zumba Trainer</p>
+              </div>
+              <div class="first"></div>
+              <div class="last"></div>
+              
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
-              <img src="img/trainer2.jpg" class="card-img-top" alt="Trainer 1">
-              <h5 class="card-title">John Doe</h5>
+            <div class="card  trainer-card">
+              <img src="img/trainer2.jpg" class="card-img-top" alt="Trainer 2">
+              <div class="pt-name">
+                <h3>John Doe</h3>
+                <p style="background-color: transparent; font-size: 15px;">Weight Trainer</p>
+              </div>
+              <div class="first"></div>
+              <div class="last"></div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
-              <img src="img/trainer3.jpg" class="card-img-top" alt="Trainer 1">
-              <h5 class="card-title">Lucy Doe</h5>
+            <div class="card trainer-card">
+              <img src="img/trainer3.jpg" class="card-img-top" alt="Trainer 3">
+              <div class="pt-name">
+                <h3>Jane Doe</h3>
+                <p style="background-color: transparent; font-size: 15px;">Cardio Trainer</p>
+              </div>
+              <div class="first"></div>
+              <div class="last"></div>
             </div>
           </div>
         </div>
@@ -314,12 +330,12 @@
     <br/>
     <section id="review">
       <div class="container">
-        <h1 class="center our-class-title">REVİEW CLIENT</h1>
+        <h1 class="center our-class-title">REVIEW CLIENT</h1>
         <hr class="orange-line-title"/>
         <p class="text-center text-classes">Lorem ipsum dolor is not simply random text.It has roots in aplace of classical 
           Hampden-Sdyney College.</p>
         <br/>
-        <div class="row">
+        <div class="row client-all">
           <div class="col-md-6">
             <div class="client">
               <div class="client-info">
@@ -369,7 +385,7 @@
           <br/>
           <div class="row"> 
             <div class="col-md-6">
-              <div class="row">
+              <div class="row contacts">
                 <div class="col-md-6">
                   <p class="contact-info text-classes">Mobile Number</p>
                   <p class="contact-info text-classes">+135 773 321 44442</p>
@@ -380,16 +396,16 @@
                 </div>
               </div>
               <br/>
+              <h3>Make An Appointment</h3>
               <form action="return false" class="contact-form">
                   <input type="text" name="name" placeholder="İsminiz" class="form-control">
-                  <br>
-                  <input type="email" name="email" placeholder="E-posta adresiniz" class="form-control mt-4 mt-lg-0">
+                  <input type="email" name="email" placeholder="E-posta adresiniz" class="form-control mt-4">
                 <textarea name="message" rows="5" placeholder="Mesaj" class="form-control mt-4"></textarea>
               </form>
             </div>
             <div class="col-md-6">
               <div id="google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.2742577481754!2d-70.56107012373896!3d41.45496659180036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sde!2str!4v1714322982949!5m2!1sde!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.2742577481754!2d-70.56107012373896!3d41.45496659180036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sde!2str!4v1714322982949!5m2!1sde!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
@@ -407,7 +423,7 @@
             eaque maxime?
           </p>
           <br/>
-          <div class="row">
+          <div class="row footer-info">
             <div class="col-md-6">
                 <h5 class="text-uppercase">Information</h5>        
                 <ul class="list-unstyled mb-0">
