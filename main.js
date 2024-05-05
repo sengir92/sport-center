@@ -12,6 +12,23 @@ function toggleContainer(containerId) {
 window.onload = function() {
   toggleContainer('container1'); // Change 'container1' to the ID of your first container
 };
+//deneme
+document.getElementById("btnContainer1").addEventListener("click", function() {
+  toggleContainer('container1');
+});
+
+document.getElementById("btnContainer2").addEventListener("click", function() {
+  toggleContainer('container2');
+});
+
+document.getElementById("btnContainer3").addEventListener("click", function() {
+  toggleContainer('container3');
+});
+
+document.getElementById("btnContainer4").addEventListener("click", function() {
+  toggleContainer('container4');
+});
+
 
 document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', function() {
